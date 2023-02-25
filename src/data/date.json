@@ -1,0 +1,248 @@
+{
+    "html": [
+        {
+            "title": "Why We Use <br> Element",
+            "answer_1": "To Make Text Bold",
+            "answer_2": "To Make Text Italic",
+            "answer_3": "To Add Breakline",
+            "answer_4": "To Create Horizontal Line",
+            "right_answer": "To Add Breakline"
+        },
+        {
+            "title": "Is <img> Element Has Attribute href",
+            "answer_1": "Yes",
+            "answer_2": "No Its For Anchor Tag <a>",
+            "answer_3": "All Elements Has This Attribute",
+            "answer_4": "Answer 1 And 3 Is Right",
+            "right_answer": "No Its For Anchor Tag <a>"
+        },
+        {
+            "title": "How Can We Make Element Text Bold",
+            "answer_1": "Putting It Inside <b> Tag",
+            "answer_2": "Putting It Inside <strong> Tag",
+            "answer_3": "Customizing It With F-W Prop In CSS",
+            "answer_4": "All Answers Is Right",
+            "right_answer": "All Answers Is Right"
+        },
+        {
+            "title": "How Can We Include External Page Inside Our HTML Page",
+            "answer_1": "By Using Include in HTML",
+            "answer_2": "By Using Load In HTML",
+            "answer_3": "By Using iFrame Tag",
+            "answer_4": "All Solutions Is Wrong",
+            "right_answer": "By Using iFrame Tag"
+        },
+        {
+            "title": "What Is The Tag That Not Exists in HTML",
+            "answer_1": "<object>",
+            "answer_2": "<basefont>",
+            "answer_3": "<abbr>",
+            "answer_4": "All Tags Is Exists in HTML",
+            "right_answer": "All Tags Is Exists in HTML"
+        },
+        {
+            "title": "How We Specify Document Type Of HTML5 Page",
+            "answer_1": "<DOCTYPE html>",
+            "answer_2": "<DOCTYPE html5>",
+            "answer_3": "<!DOCTYPE html5>",
+            "answer_4": "<!DOCTYPE html>",
+            "right_answer": "<!DOCTYPE html>"
+        },
+        {
+            "title": "What Is The Element Thats Not Exists in HTML5 Semantics",
+            "answer_1": "<article>",
+            "answer_2": "<section>",
+            "answer_3": "<blockquote>",
+            "answer_4": "<aside>",
+            "right_answer": "<blockquote>"
+        },
+        {
+            "title": "In HTML Can We Use This Way To Add Attributes",
+            "answer_1": "<div class='class-name'>",
+            "answer_2": "<div class=class-name>",
+            "answer_3": "<div class=\"class-name\">",
+            "answer_4": "All Is Right",
+            "right_answer": "All Is Right"
+        }
+    ],
+    "css": [
+        {
+            "title": "What does CSS stand for?",
+            "answer_1": "Colorful Style Sheets",
+            "answer_2": "Computer Style Sheets",
+            "answer_3": "Creative Style Sheets",
+            "answer_4": "Cascading Style Sheets",
+            "right_answer": "Cascading Style Sheets"
+        },
+        {
+            "title": "What is the correct HTML for referring to an external style sheet?",
+            "answer_1": "<stylesheet>mystyle.css</stylesheet>",
+            "answer_2": "<link rel=\"stylesheet\" type=\"text/css\" href=\"mystyle.css\">",
+            "answer_3": "<style src=\"mystyle.css\">",
+            "answer_4": "All Is Right",
+            "right_answer": "<link rel=\"stylesheet\" type=\"text/css\" href=\"mystyle.css\">"
+        },
+        {
+            "title": "Where in an HTML document is the correct place to refer to an external style sheet?",
+            "answer_1": "At the end of the document",
+            "answer_2": "In the <body> section",
+            "answer_3": "In the <head> section",
+            "answer_4": "All Is Right",
+            "right_answer": "In the <head> section"
+        },
+        {
+            "title": "Which HTML tag is used to define an internal style sheet?",
+            "answer_1": "<style>",
+            "answer_2": "<css>",
+            "answer_3": "<script>",
+            "answer_4": "All Is Right",
+            "right_answer": "<style>"
+        },
+        {
+            "title": "Which HTML attribute is used to define inline styles?",
+            "answer_1": "font",
+            "answer_2": "style",
+            "answer_3": "styles",
+            "answer_4": "class",
+            "right_answer": "style"
+        },
+        {
+            "title": "Which is the correct CSS syntax?",
+            "answer_1": "body {color: black;}",
+            "answer_2": "{body;color:black;}",
+            "answer_3": "body:color=black;",
+            "answer_4": "{body:color=black;}",
+            "right_answer": "body {color: black;}"
+        },
+        {
+            "title": "How do you insert a comment in a CSS file?",
+            "answer_1": "// this is a comment //",
+            "answer_2": "\" this is a comment",
+            "answer_3": "/* this is a comment /*",
+            "answer_4": "// this is a comment",
+            "right_answer": "/* this is a comment /*"
+        },
+        {
+            "title": "Which property is used to change the background color?",
+            "answer_1": "bg-color",
+            "answer_2": "color",
+            "answer_3": "background-color",
+            "answer_4": "All Is Right",
+            "right_answer": "background-color"
+        },
+        {
+            "title": "How do you add a background color for all <h1> elements?",
+            "answer_1": "h1.all {background-color:#FFFFFF;}",
+            "answer_2": "h1 {background-color:#FFFFFF;}",
+            "answer_3": "all.h1 {background-color:#FFFFFF;}",
+            "answer_4": "All Is Right",
+            "right_answer": "h1 {background-color:#FFFFFF;}"
+        },
+        {
+            "title": "Which CSS property is used to change the text color of an element?",
+            "answer_1": "color",
+            "answer_2": "fg-color",
+            "answer_3": "text-color",
+            "answer_4": "All Is Right",
+            "right_answer": "color"
+        }
+    ],
+    "javascript": [
+        {
+            "title": "Inside which HTML element do we put the JavaScript?",
+            "answer_1": "<js>",
+            "answer_2": "<javascript>",
+            "answer_3": "<script>",
+            "answer_4": "<settings>",
+            "right_answer": "<script>"
+        },
+        {
+            "title": "What is the correct JavaScript syntax to change the content of the HTML element: <p id=\"demo\">This is a demonstration.</p>",
+            "answer_1": "#demo.innerHTML = \"Hello World\";",
+            "answer_2": "document.getElementByName(\"p\").innerHTML = \"Hello World!\";",
+            "answer_3": "document.getElementById(\"demo\").innerHTML = \"Hello World!\";",
+            "answer_4": "document.getElement(\"p\").innerHTML = \"Hello World!\";",
+            "right_answer": "document.getElementById(\"demo\").innerHTML = \"Hello World!\";"
+        },
+        {
+            "title": "Where is the correct place to insert a JavaScript?",
+            "answer_1": "The <head> section",
+            "answer_2": "The <body> section",
+            "answer_3": "Both the <head> section and the <body> section are correct",
+            "answer_4": "Non Of One",
+            "right_answer": "Both the <head> section and the <body> section are correct"
+        },
+        {
+            "title": "What is the correct syntax for referring to an external script called \"xxx.js\"?",
+            "answer_1": "<script name=\"xxx.js\">",
+            "answer_2": "<script src=\"xxx.js\">",
+            "answer_3": "<script href=\"xxx.js\">",
+            "answer_4": "All Is Right",
+            "right_answer": "<script src=\"xxx.js\">"
+        },
+        {
+            "title": "How do you write \"Hello World\" in an alert box?",
+            "answer_1": "alert(\"Hello World\");",
+            "answer_2": "msg(\"Hello World\");",
+            "answer_3": "alertBox(\"Hello World\");",
+            "answer_4": "msgBox(\"Hello World\");",
+            "right_answer": "alert(\"Hello World\");"
+        },
+        {
+            "title": "How do you create a function in JavaScript?",
+            "answer_1": "function:myFunction()",
+            "answer_2": "function = myFunction()",
+            "answer_3": "function myFunction()",
+            "answer_4": "All Is Right",
+            "right_answer": "function myFunction()"
+        },
+        {
+            "title": "How do you call a function named \"myFunction\"?",
+            "answer_1": "myFunction()",
+            "answer_2": "call myFunction()",
+            "answer_3": "call function myFunction()",
+            "answer_4": "All Is Right",
+            "right_answer": "myFunction()"
+        },
+        {
+            "title": "How to write an IF statement in JavaScript?",
+            "answer_1": "if i = 5 then",
+            "answer_2": "if (i == 5)",
+            "answer_3": "if i == 5 then",
+            "answer_4": "if i == 5",
+            "right_answer": "if (i == 5)"
+        },
+        {
+            "title": "How to write an IF statement for executing some code if \"i\" is NOT equal to 5?",
+            "answer_1": "if (i != 5)",
+            "answer_2": "if i =! 5 then",
+            "answer_3": "if i <> 5",
+            "answer_4": "if (i <> 5)",
+            "right_answer": "if (i != 5)"
+        },
+        {
+            "title": "How does a WHILE loop start?",
+            "answer_1": "while i = 1 to 10",
+            "answer_2": "while (i <= 10)",
+            "answer_3": "while (i <= 10; i++)",
+            "answer_4": "All Is Right",
+            "right_answer": "while (i <= 10)"
+        },
+        {
+            "title": "How does a FOR loop start?",
+            "answer_1": "for (i <= 5; i++)",
+            "answer_2": "for (i = 0; i <= 5)",
+            "answer_3": "for (i = 0; i <= 5; i++)",
+            "answer_4": "for i = 1 to 5",
+            "right_answer": "for (i = 0; i <= 5; i++)"
+        },
+        {
+            "title": "How can you add a comment in a JavaScript?",
+            "answer_1": "<!-- This is a comment -->",
+            "answer_2": "// This is a comment",
+            "answer_3": "' This is a comment",
+            "answer_4": "# This is a comment",
+            "right_answer": "// This is a comment"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+.container {
+    width: 800px;
+    max-width: 100%;
+    min-height: 70vh;
+    padding: 30px;
+    background-color: #f8f8f8;
+    border-radius: $radius;
+}
+
+.row {
+    @include makeItFlex(space-between, 0);
+}

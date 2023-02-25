@@ -1,0 +1,39 @@
+.question-title {
+    margin: 20px 0;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    color: $secondary-clr;
+}
+
+.quiz-form {
+    .question-label {
+        position: relative;
+        padding: 15px 15px 15px 50px;
+        margin-bottom: 2px;
+        @include makeItFlex(flex-start, 15px);
+        background-color: #E7E9EB;
+        line-height: 1.6;
+        color: $secondary-clr;
+        cursor: pointer;
+        &:hover {background-color: #ddd;}
+        input {
+            display: none;
+            &:checked + .checkmark {
+                border: 6px solid $main-clr;
+            }
+        }
+        .checkmark {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 15px;
+            display: block;
+            width: 20px;
+            height: 20px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    }
+}

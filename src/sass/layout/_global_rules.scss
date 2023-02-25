@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    @include prefixer(box-sizing, border-box, (webkit, moz, o, ms));
+}
+
+body {
+    min-height: 100vh;
+    padding: 0 15px;
+    @include makeItFlex(center, 0);
+    background-color: $main-clr;
+    font-family: Tahoma, Arial;
+}
+
+a {
+    text-decoration: none;
+}

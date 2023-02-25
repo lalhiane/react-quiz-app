@@ -1,0 +1,10 @@
+.result {
+    height: 597px;
+    @include makeItFlex(center, 0);
+    flex-direction: column;
+    .result-msg {
+        text-align: center;
+        letter-spacing: 1px;
+        color: $secondary-clr;
+    }
+}
