@@ -1,8 +1,11 @@
 function SingleQuestion(props) {
 
-    const { currentIndex, getChosedAnswer, length, question, next, disabled } = props;
+    const { currentIndex, handleChange, length, question,
+        next, checked, nextButtonDisabled } = props;
 
     const { title, answer_1, answer_2, answer_3, answer_4 } = question;
+
+    const isBtnDisabled = nextButtonDisabled ? "disabled" : "";
 
     return (
 
@@ -20,7 +23,9 @@ function SingleQuestion(props) {
 
                     <input type="radio"
                         name="samename"
-                        onChange={() => getChosedAnswer(answer_1)}
+                        value={1}
+                        checked={checked === 1}
+                        onChange={(e) => handleChange(e, answer_1)}
                     />
                     
                     <span className="checkmark"></span>
@@ -33,7 +38,9 @@ function SingleQuestion(props) {
 
                     <input type="radio"
                         name="samename"
-                        onChange={() => { getChosedAnswer(answer_2) }}
+                        value="2"
+                        checked={checked === 2}
+                        onChange={(e) => { handleChange(e, answer_2) }}
                     />
 
                     <span className="checkmark"></span>
@@ -46,7 +53,9 @@ function SingleQuestion(props) {
 
                     <input type="radio"
                         name="samename"
-                        onChange={() => { getChosedAnswer(answer_3) }}
+                        value="3"
+                        checked={checked === 3}
+                        onChange={(e) => { handleChange(e, answer_3) }}
                     />
 
                     <span className="checkmark"></span>
@@ -59,7 +68,9 @@ function SingleQuestion(props) {
 
                     <input type="radio"
                         name="samename"
-                        onChange={() => { getChosedAnswer(answer_4) }}
+                        value="4"
+                        checked={checked === 4}
+                        onChange={(e) => { handleChange(e, answer_4) }}
                     />
 
                     <span className="checkmark"></span>
@@ -70,7 +81,10 @@ function SingleQuestion(props) {
 
             </form>
 
-            <button className={`btn submit-btn ${disabled}`} onClick={next}>
+            <button className={`btn submit-btn ${
+                nextButtonDisabled ? "disabled" : ""
+            }`}
+                onClick={next}>
                 Next
             </button>
 

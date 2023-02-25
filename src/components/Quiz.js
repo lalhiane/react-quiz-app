@@ -16,31 +16,43 @@ function Quiz(props) {
 
     const [rightAnswers, setRightAnswers] = useState(0);
 
-    const [disabled, setDisabled] = useState("");
+    const [checked, setChecked] = useState(5);
+
+    const [nextButtonDisabled, setNextButtonDisabled] = useState(true);
 
     useEffect(() => {
 
         setQuestion(data[lang][currentIndex]);
 
-        document.querySelectorAll("input").forEach(input => input.checked = false);
+        setChecked(5);
 
-        setDisabled("disabled");
+        setNextButtonDisabled(true);
 
     }, [currentIndex]);
     
     const next = () => {
 
-        if (chosenAnswer === question.right_answer) setRightAnswers(rightAnswers + 1);
+        if (chosenAnswer === question.right_answer) {
 
-        if (currentIndex < data[lang].length) setCurrentIndex(currentIndex + 1);
+            setRightAnswers(ra => ra + 1);
+
+        }
+
+        if (currentIndex < data[lang].length) {
+
+            setCurrentIndex(ci => ci + 1);
+            
+        }
 
     }
 
-    const getChosedAnswer = (answer) => {
-
+    const handleChange = (e, answer) => {
+    
         setChosenAnswer(answer);
 
-        setDisabled("visibled");
+        setNextButtonDisabled(false);
+
+        setChecked(+e.currentTarget.value);
 
     }
 
@@ -60,15 +72,17 @@ function Quiz(props) {
                 
             currentIndex={currentIndex}
                 
-            getChosedAnswer={getChosedAnswer}
+            handleChange={handleChange}
                 
             length={data[lang].length}
                 
             question={question}
                 
-                next={next}
+            next={next}
                 
-                disabled={disabled}
+            checked={checked}
+            
+            nextButtonDisabled={nextButtonDisabled}
                 
         />
     );
